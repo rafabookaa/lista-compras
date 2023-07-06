@@ -55,7 +55,7 @@ function imprimeLista () {
     alert(`Sua lista de compras é: \n \n Frutas: ${frutasArray} \n \n Laticinios: ${laticiniosArray} \n \n Congelados: ${congeladosArray} \n \n Doces: ${docesArray}`)
 }
 
-let botaoImprime = document.querySelector('.botao-imprime')
+let botaoImprime = document.querySelector('.imprime')
 botaoImprime.onclick = imprimeLista;
 
 
