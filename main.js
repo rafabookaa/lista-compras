@@ -34,7 +34,6 @@ function adicionaItem() {
     }     
     input.value = " ";
     input.focus(); 
-
 }
 let button = document.querySelector('button');
     button.onclick = adicionaItem;
@@ -46,9 +45,7 @@ let button = document.querySelector('button');
             
         } else 
         alert('Clique no botão imprimir lista, para que a sia lista de compras seja mostrada')
-    }
-
-    
+    }    
 })
 
 function imprimeLista () {
