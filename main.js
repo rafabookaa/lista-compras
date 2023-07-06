@@ -45,10 +45,17 @@ let button = document.querySelector('button');
         if(adicionaNovoItem) {
             
         } else 
-        alert('Imprima a lista de itens')
+        alert('Clique no botão imprimir lista, para que a sia lista de compras seja mostrada')
     }
 
     
 })
+
+function imprimeLista () {
+    alert(`Sua lista de compras é: \n \n Frutas: ${frutasArray} \n \n Laticinios: ${laticiniosArray} \n \n Congelados: ${congeladosArray} \n \n Doces: ${docesArray}`)
+}
+
+let botaoImprime = document.querySelector('.botao-imprime')
+botaoImprime.onclick = imprimeLista;
 
 
