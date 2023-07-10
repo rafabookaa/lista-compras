@@ -49,7 +49,12 @@ let button = document.querySelector('button');
 })
 
 function imprimeLista () {
-    alert(`Sua lista de compras é: \n \n Frutas: ${frutasArray} \n \n Laticinios: ${laticiniosArray} \n \n Congelados: ${congeladosArray} \n \n Doces: ${docesArray}`)
+    document.write(` Sua lista de compras é: <br><br> `)
+    document.write(`Frutas: ${frutasArray} <br><br> `) 
+    document.write(`Laticinios: ${laticiniosArray} <br><br>`)  
+    document.write(`Congelados: ${congeladosArray} <br><br>`)  
+    document.write(`Doces: ${docesArray} <br><br>`)  
+    // alert(`Sua lista de compras é: \n \n Frutas: ${frutasArray} \n \n Laticinios: ${laticiniosArray} \n \n Congelados: ${congeladosArray} \n \n Doces: ${docesArray}`)
 }
 
 let botaoImprime = document.querySelector('.imprime')
